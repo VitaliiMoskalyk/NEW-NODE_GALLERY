@@ -8,6 +8,7 @@ galleryRef.insertAdjacentHTML('beforeend', imagesMarkup);
 
 
 function createImagesMarkup(galleryItems) {
+    
     return galleryItems.map(galleryListMark).join('');
 };
 
